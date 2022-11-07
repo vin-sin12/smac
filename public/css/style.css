@@ -1,0 +1,370 @@
+.navbar {
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-right: 180px;
+    padding-bottom: 30px;
+    background-color: #121b54;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+    color: #f1aa98;
+    font-weight: 550;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link {
+    color: #f1aa98;
+    font-weight: 550;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.navbar-nav {
+    padding-right: 20px;
+}
+
+.nav-item {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+}
+
+.signup {
+    padding-top: 15px;
+}
+
+#signup {
+    width: 119px;
+    height: 52px;
+}
+
+.signupcolour {
+    background-color: rgb(240, 195, 137);
+    color: #121b54;
+}
+
+
+
+
+
+
+
+
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.smac-logo {
+    height: 100px;
+    width: 100px;
+}
+
+.header {
+    float: left;
+}
+
+.navbar {
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 180px;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+}
+
+.navbar-nav {
+    padding-right: 20px;
+}
+
+.nav-item {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.events {
+    padding-top: 15px;
+}
+.OurTeam{
+    background-color: #121b54;
+    /* border: 2px solid red; */
+    width: 76em;
+    height: 10em;
+    position: relative;
+    top: 12em;
+    left: 1em;
+    margin: auto;
+    margin-top: -126px;
+}
+.follow{
+    /* border: 2px solid green; */
+    width: 62px;
+    height: 158px;
+    display: inline-block;
+}
+.head{
+    position: absolute;
+    top: 52px;
+    left: 520px;
+    font-size: 32px;
+    color: #e3a657;
+}
+.followtext{
+    transform: rotate(90deg);
+    padding-top: 0;
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px;
+    color: #e3a657;
+    position: absolute;
+    top: 41px;
+    left: -10px;
+}
+.ourteamsociallogo{
+    position: relative;
+    top: 101px;
+    left: -373px;
+    display: block;
+    margin-top: 5px;
+}
+#fancy1{
+    position: relative;
+    top: 2em;
+    left: 18em;
+}
+#fancy2{
+    position: relative;
+    top: 2em;
+    left: 30em;
+}
+
+section#ourmember {
+    position: relative;
+    top: 13em;
+    left: 14em;
+}
+.fourmemberdesc{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 198px;
+}
+.membercontent{
+    text-align: center;
+}
+.member{
+    /* border: 2px solid brown; */
+    height: 26em;
+    width: 24em;
+    display: inline-block;
+    margin: 38px;
+    margin-left: 312px;
+    background-color: #f7f7f7;
+    border-radius: 13px;
+    box-shadow: 5px 7px #121b54;
+    overflow: hidden;
+    transition: all 1.5 ease;
+    margin-right: -200px;
+}
+.member:hover{
+    /* background-color: antiquewhite; */
+    transform: scale(1.03);
+}
+
+.memberphoto img{
+    border-radius: 100%;
+    max-height: 72px;
+    width: auto;
+    border: 3px solid #e3a657;
+    position: relative;
+    left: 161px;
+}
+.membername{
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #201f2e;
+    margin-bottom: -1px;
+    text-align: center;
+}
+.fourmemberdesc h4{
+    font-weight: 300;
+    font-size: 16px;
+    color: #6e6c83;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.memberlinkdin img{
+    position: relative;
+    left: 127px;
+}
+#allmember{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 196px;
+
+}
+.allmembercards{
+    width: 19%;
+    /* background-color: grey; */
+    border-radius: 30px;
+    margin: 40px;
+    box-shadow: 3px 3px 10px black;
+    display: inline-block;
+    margin-left: 161px;
+    margin-top: 50px;
+    height: 28em;
+    transition: all 0.5s ease-in-out;
+    margin-right: -5px;
+}
+.allmembercards:hover{
+    transform: scale(1.1);
+}
+.profilecard img{
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 22em;
+}
+.profilemembername{
+    text-align: center;
+}
+.linkdin{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -129px;
+    z-index: 1;
+    right: 120px;
+    margin: 15px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background: #405de6;
+    box-shadow: 0 7px 30px rgb(43 98 169 / 50%);
+    font-size: 25px;
+    font-weight: 700;
+    flex-shrink: 0;
+    transition: all .3s;
+    background: linear-gradient(45deg,#3b5998,#0078d7);
+    box-shadow: 0 4px 30px rgb(43 98 169 / 50%);
+    left: 105px;
+}
+.linkdin a{
+    color: white;
+    text-decoration: none;
+}
+.profilemembername h2{
+
+    margin-bottom: -12px;
+    font-size: 30px;
+    position: relative;
+    top: 11px;
+
+}
+.profilemembername p{
+    padding-bottom: 23px;
+    font-size: 18px;
+    position: relative;
+    top: 25px;
+
+}
+#ishmeetlinkdin{
+    top: -159px;
+}
+#ishmeetallmembercards{
+    height: 29em;
+    position: relative;
+    top: 20px;
+}
+/* Footer */
+.footerdiv{
+    /* border: 2px solid red; */
+    height: 27em;
+    width: 100%;
+    position: relative;
+    top: 17em;
+    background-color: #121b54;
+}
+.logo{
+    /* border: 2px solid green; */
+    height: 10em;
+    width: 10em;
+    position: relative;
+    top: 24%;
+    left: 14%;
+
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+}
+.addressinfo{
+    /* border: 2px solid green; */
+    height: 18em;
+    width: 27em;
+    position: relative;
+    left: 33%;
+    bottom: 24%;
+
+}
+.socialmedia{
+    border: 2px solid #121b54;
+    height: 15em;
+    width: 26em;
+    position: relative;
+    bottom: 85%;
+    left: 65%;
+    border-bottom: 2px solid hsla(0,0%,100%,.2);
+
+
+
+}
+p#para {
+    color: white;
+    position: relative;
+    top: -25px;
+    left: 30px;
+}
+#para a{
+    color: white;
+}
+a.menubar {
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 102%;
+    margin-bottom: 14px;
+    position: relative;
+    top: 8%;
+}
+.footersocial {
+    position: relative;
+    bottom: 49%;
+    left: 52%;
+}
+.upper {
+    margin-bottom: -19px;
+}
+a:hover{
+    color: wheat;
+}
+#para a:hover{
+    color: wheat;
+}
